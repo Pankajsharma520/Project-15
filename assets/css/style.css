@@ -6,18 +6,14 @@
     text-decoration: none;
     box-sizing: border-box;
     list-style: none;
+    font-family: "DM Sans", sans-serif;
 }
 
 section {
-    height: 100vh;
-    display: flex;
+    min-height: 100vh;
     justify-content: center;
     align-content: center;
     align-items: center;
-}
-
-.d-flex {
-    display: flex;
 }
 
 .container {
@@ -36,90 +32,90 @@ section {
     margin-right: -12px;
 }
 
-.col-5 {
-    width: 41.66%;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-
-
 h3 {
-    font-family: "DM Sans", sans-serif;
     font-size: 42px;
     line-height: 52px;
     letter-spacing: -0.4000000059604645px;
     color: #1E0E62;
-    margin-bottom: 25px;
+    margin-bottom: 8px;
+    width: 362px;
+}
+
+h2 {
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0.4000000059604645px;
+    color: #1E0E62;
+    margin-bottom: 8px;
+    width: 362px;
+    margin-top: 57px;
 }
 
 .para {
-    font-family: "DM Sans", sans-serif;
     line-height: 26px;
     width: 355px;
     color: #A1A1B0;
-    margin-bottom: 34.2px;
+    margin-bottom: 18px;
 }
 
 .number {
-    font-family: "DM Sans", sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
-    margin-left: 16px;
     color: #1E0E62;
-    margin-bottom: 12px;
+    margin-bottom: 5px;
 }
 
 .mail {
-    font-family: "DM Sans", sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
     margin-left: 14.5px;
     color: #1E0E62;
+}
 
+.card {
+    width: 470px;
+    height: 550px;
 }
 
 .svg {
-    margin-top: 6px;
+    margin-top: 5px;
 }
 
 .mail-info {
-    margin-bottom: 35.3px;
+    margin-bottom: 20px;
 }
 
 h5 {
     font-size: 22px;
     line-height: 32px;
     width: 362px;
-    font-family: "DM Sans", sans-serif;
     color: #1E0E62;
-    margin-top: 44.5px;
+    margin-top: 15px;
 }
 
 .para2 {
     line-height: 26px;
     width: 368px;
-    font-family: "DM Sans", sans-serif;
     color: #A1A1B0;
     margin-top: 11px;
-    margin-bottom: 36px;
+    margin-bottom: 35px;
 }
 
 .para3 {
     line-height: 26px;
     width: 469px;
     color: #A1A1B0;
-    margin-top: 25.2px;
-    margin-bottom: 34.8px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .label {
     font-size: 14px;
     line-height: 26px;
     letter-spacing: 2px;
-    font-family: "DM Sans", sans-serif;
-    margin-bottom: 6px;
+    margin-bottom: 5px;
     color: #1E0E62;
     font-weight: 600;
 
@@ -136,8 +132,9 @@ h5 {
     width: 100%;
     height: 50px;
     padding: 12px 24px;
-    margin-bottom: 37px;
+    margin-bottom: 20px;
     margin-top: 4px;
+
 }
 
 textarea {
@@ -148,7 +145,7 @@ textarea {
     height: 170px;
     resize: none;
     padding: 13px 111px 82px 19px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     margin-top: 4px;
 }
 
@@ -175,23 +172,31 @@ button {
     padding: 12px 23px;
     color: white;
     cursor: pointer;
-    font-family: "DM Sans", sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
-
 }
 
 form {
-    padding: 50px 50px 64px 50px;
+    padding: 35px 40px 50px 40px;
     background: #EBEAED;
+}
+
+.map-container {
+    width: 370px;
+    height: 230px;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+
 }
 
 textarea {
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
-    font-family: "DM Sans", sans-serif;
 
 }
 
@@ -199,5 +204,33 @@ textarea {
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
-    font-family: "DM Sans", sans-serif;
+}
+
+.left-box{
+    margin: auto;
+}
+
+/* =====================================Reponsive code====================================================== */
+.mt-30 {
+    margin-top: 30px;
+}
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+@media (min-width:768px) {
+    .col-md-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .mt-md-0 {
+        margin-top: 0px;
+    }
+
 }
