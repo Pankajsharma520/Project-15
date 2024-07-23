@@ -48,7 +48,6 @@ h2 {
     color: #1E0E62;
     margin-bottom: 8px;
     width: 362px;
-    margin-top: 57px;
 }
 
 .para {
@@ -206,10 +205,6 @@ textarea {
     line-height: 26px;
 }
 
-.left-box{
-    margin: auto;
-}
-
 /* =====================================Reponsive code====================================================== */
 .mt-30 {
     margin-top: 30px;
@@ -234,3 +229,4 @@ textarea {
     }
 
 }
+
